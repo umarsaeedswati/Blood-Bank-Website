@@ -1,0 +1,103 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+	}
+	body
+	{
+		
+		background-image: url("./images/wall.jpg");
+		background-attachment:center;
+		background-size:cover;
+	 }
+	img
+	{
+		border: 1px solid #ddd;
+	    	border-radius: 2px;
+	    	padding: 5px;
+	    	width: 150px;
+	}
+	img:hover 
+	{
+		box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	}
+	h1
+	{
+		color:red;
+		text-decoration: underline;
+	}
+	p {
+    		color:white;
+	}
+	a:link {
+    color: white;
+	}
+	a:visited {
+    color: white;
+	}
+	blockquote{
+  display:inline-block;
+  background:rgb(125,124,200);
+  padding: 1px 1px 1px 1px;
+  margin: 0 0 10px;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000000 ;
+  text-align: justify;
+  border-left: 10px solid #c76c0c;
+  border-right: 10px solid #c76c0c;
+  -moz-box-shadow: 2px 2px 10px #ccc;
+  -webkit-box-shadow: 2px 2px 10px #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+}
+blockquote before{
+  content: "\201C";
+ font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #000000 ;
+  position: absolute;
+  left: 5px;
+  top:15px;
+}
+blockquote::after{
+  content: "";
+}
+blockquote em{
+  font-style: italic;
+}
+blockquote cite {
+color: rgb(156,0,100);
+font-size: 16px;
+display:inline-block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+	code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display:inline-block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 10px 10px;
+  text-align: center;
+}
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 0;
+  }

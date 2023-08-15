@@ -1,0 +1,109 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="./css/index.css">
+	<style>
+		body {
+		background-image:url("./images/donor_reg.jpg");
+		background-position:right;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+	}
+	</style>
+</head>
+
+<body class="">
+
+<div>
+	<div>
+		<center>
+			
+	<center><h11>ONLINE</h11><h12> BLOOD </h12><h13>BANK</h13></center>
+<br>
+	<ul>
+	<li><a href='index.html'>Home</a></li>
+		<li><a class="active" href="#home">Donor Registration</a></li>
+  	<li><a href='recipient_registration.html'>Recipient Registration</a></li>
+	<li><a href='eligibility.html'>Eligibility</a></li>
+	<li><a href='login.html'>Login</a></li>
+	<li><a href='contactus.html'>About Us</a></li>
+	</ul>
+	<br>
+
+		<u><h1>Enter your details</h1></u>
+
+
+		<form action="process_don.php" method="post" >
+			<table border="0">
+			<tbody><tr>
+				<td style="FONT-SIZE:18px;LINE-HEIGHT:40px; font-family:verdana;"><label><center><b>Name:</b></center></label></td>
+			</tr>
+			<tr>
+				<td style="LINE-HEIGHT:40px"><center><input style="font-size:15px" type="text" name="name"></center></td>
+			</tr>
+			<tr>
+				<td style="FONT-SIZE:18px;LINE-HEIGHT:40px;  font-family:verdana;"><label><center><b>CNIC:</b></center></label></td>
+			</tr>
+			<tr>
+				<td><center><input style="font-size:15px; font-family:verdana;" type="n" name="donid"></center></td>
+			</tr>
+			<tr>
+				<td style="FONT-SIZE:18px;LINE-HEIGHT:40px; font-family:verdana;"><label><center><b>Gender:</b></center></label></td></tr>
+			
+			<tr>
+				<td><center>Male<input style="font-size:15px; font-family:verdana;" type="radio" name="sex" value="M">
+				Female<input style="font-size:15px; font-family:verdana;" type="radio" name="sex" value="F"></center></td>
+			</tr>
+			<tr>
+				<td style="FONT-SIZE:18px;LINE-HEIGHT:40px; font-family:verdana;"><label><center><b>Date of Birth:</b></center></label></td>
+			</tr>
+			<tr>
+				<td>
+				<center>
+					<input type="date" style="font-size:15px;  font-family:verdana;" name="dob">
+				</center>
+				</td>
+			</tr>
+			<tr>
+				<td style="FONT-SIZE:18px;LINE-HEIGHT:40px; font-family:verdana;"><label><center><b>Address:</b></center></label></td>
+			</tr>
+
+			<tr>
+				<td><center><textarea style="font-size:18px; font-family:verdana;" rows="5" cols="30" name="address"></textarea></center></td>
+			</tr>
+			<tr>
+				<td style="FONT-SIZE:18px;LINE-HEIGHT:40px; font-family:verdana;"><label><center><b>Blood group</b></center></label></td><br>
+			</tr>
+			<tr>
+				<td><center>
+				<select name="bgroup"> 
+					<option value="A+">A+</option>
+					<option value="A-">A-</option>
+					<option value="B+">B+</option>
+					<option value="B-">B-</option>
+					<option value="AB+">AB+</option>
+					<option value="AB-">AB-</option>
+					<option value="O+">O+</option>
+					<option value="O-">O-</option>
+				</select>
+				</center></td>
+			</tr>
+			
+			</tbody></table>
+			<br>
+			<br>
+				<button type="submit" value="submit" name="submit">Submit</button>
+
+				<button type="reset" value="reset" name="reset">Reset</button>
+
+			<br><br>
+				<font color="red">All fields are mandatory</font>
+			<br>
+	</center>
+</form>
+		
+		
+	</div>
+	<a class="footer">Copyright @ Comsats University Islamabad Abbottabad Campus. Any illegal reproduction of this content will result in immediate legal action.</a>
+</body>
+</html>

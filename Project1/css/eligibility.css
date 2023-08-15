@@ -1,0 +1,41 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+	}
+	body
+	{
+		
+		background-color: white;
+		background-attachment:fixed;
+		background-size:cover;
+	 }
+	 .footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: blue;
+		color: white;
+		text-align: center;
+		opacity: 0.6;
+	  }
+	h1
+	{
+		color:#CC2A0C;
+		text-decoration: underline;
+		text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+	}
+	ol {
+    		color:rgb(52,22,4);
+		 border: 2px solid powderblue;
+   		
+		BACKGROUND-COLOR: rgb(141,231,228);
+	}
+	h3{
+		color:1D0244;
+	}
+	a:link {
+    color: black;
+	}
+	a:visited {
+    color: black;
+	}

@@ -1,0 +1,55 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+body {
+	font-family:verdana;
+    background-image: url("./images/1.png");
+    background-position: center;
+    background-size:cover;
+}
+    .footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: blue;
+		color: white;
+		text-align: center;
+        opacity: 0.6;
+	  }
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family:verdana;
+    font-size:15px;
+}
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:#00CDCD;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 10px 0 12px 0;
+    height:43%;
+}
+
+.container {
+    padding: 16px 350px;
+    width: 44%;
+    color: black;
+}
